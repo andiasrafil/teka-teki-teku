@@ -15,7 +15,6 @@ codeToTestRatio:
   badge:
     path: docs/code_to_test_ratio.svg
 push:
-  if: is_default_branch
   message: "ci(octocov): unit test code coverage"
 diff:
   datastores:
