@@ -118,13 +118,8 @@ class _CrosswordWidgetState extends State<CrosswordWidget> {
     final inputtedText = activeModels.map((element) => element.controller.text).join();
     if (word.answer.length == inputtedText.length) {
       if (word.answer.toUpperCase() == inputtedText.toUpperCase()) {
-        print('Correct');
-        if (_isGameCompleted()) {
-          print('Game Completed');
-        }
-      } else {
-        print('Wrong');
-      }
+        if (_isGameCompleted()) {}
+      } else {}
     }
   }
 
