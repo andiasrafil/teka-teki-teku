@@ -91,10 +91,26 @@ jobs:
         with:
           ssh-private-key: ${{secrets.ssh_key}}
 
+      - name: 📦 Restore Dependencies Cache
+        id: cache-deps
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.pub-cache
+          key: pub-cache-${{ runner.os }}-${{ hashFiles('**/pubspec.yaml') }}
+
       - name: 📦 Install Dependencies
         run: |
           flutter pub global activate very_good_cli
           very_good packages get --recursive --ignore=${{inputs.package_get_excludes}}
+
+      - name: 📦 Save Dependencies Cache
+        if: steps.cache-deps.outputs.cache-hit != 'true'
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.pub-cache
+          key: pub-cache-${{ runner.os }}-${{ hashFiles('**/pubspec.yaml') }}
 
       - name: ⚙️ Run Setup
         if: "${{inputs.setup != ''}}"
