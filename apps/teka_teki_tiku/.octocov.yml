@@ -4,8 +4,19 @@ coverage:
   paths:
     - coverage/lcov.info
   acceptable: 10%
+  badge:
+    path: docs/coverage.svg
 testExecutionTime:
   if: true
+  badge:
+    path: docs/execution_time.svg
+codeToTestRatio:
+  if: true
+  badge:
+    path: docs/code_to_test_ratio.svg
+push:
+  if: is_default_branch
+  message: "ci(octocov): unit test code coverage"
 diff:
   datastores:
     - artifact://${GITHUB_REPOSITORY}
