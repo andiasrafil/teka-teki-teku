@@ -1,5 +1,5 @@
 {
-  ".": "1.0.0",
+  ".": "1.1.0",
   "apps/teka_teki_tiku": "1.4.4",
   "apps/kakiku_admin": "1.0.1",
   "packages/naive_cross_word": "0.1.2+2",

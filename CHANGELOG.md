@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0](https://github.com/andiasrafil/teka-teki-teku/compare/v1.0.0...v1.1.0) (2024-12-29)
+
+
+### Features
+
+* make crossword playable ([#8](https://github.com/andiasrafil/teka-teki-teku/issues/8)) ([#9](https://github.com/andiasrafil/teka-teki-teku/issues/9)) ([5b29eb8](https://github.com/andiasrafil/teka-teki-teku/commit/5b29eb823f1eb98afee6fe4a04089011ed28e484))
+
 ## 2024-12-29
 
 ### Changes
