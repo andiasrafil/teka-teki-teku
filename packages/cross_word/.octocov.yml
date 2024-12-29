@@ -3,9 +3,18 @@ coverage:
   if: true
   paths:
     - coverage/lcov.info
-  acceptable: 0%
+  acceptable: 10%
+  badge:
+    path: docs/coverage.svg
 testExecutionTime:
   if: true
+  badge:
+    path: docs/execution_time.svg
+codeToTestRatio:
+  if: true
+  badge:
+    path: docs/code_to_test_ratio.svg
+push:
 diff:
   datastores:
     - artifact://${GITHUB_REPOSITORY}

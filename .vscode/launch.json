@@ -28,7 +28,7 @@
             "request": "launch",
             "type": "dart",
             "program": "apps/teka_teki_tiku/lib/main_production.dart",
-            "args": ["--flavor", "production", "--target", "lib/main_production.dart"]
+            "args": ["--release", "--flavor", "production", "--target", "lib/main_production.dart"]
         },
         {
             "name": "kakiku_admin development",

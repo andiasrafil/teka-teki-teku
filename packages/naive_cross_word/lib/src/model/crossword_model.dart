@@ -49,20 +49,50 @@ class CrossWordModel {
   }
 
   /// Check if the cell is selected
-  bool isCurrentCellSelected(SelectedCell? selectedCell, int col, int row) {
+  bool isCurrentCellSelected(int col, int row) {
     if (selectedCell == null) {
       return false;
     }
-    return selectedCell.row == row && selectedCell.col == col;
+    return selectedCell?.row == row && selectedCell?.col == col;
+  }
+
+  /// return true if the cell is enabled
+  bool isCellEnabled(int row, int col) {
+    return layout.table[row][col] != '-';
+  }
+
+  // return the number of active cells (not "-")
+  int getNumberOfActiveCells() {
+    var count = 0;
+    for (var i = 0; i < layout.table.length; i++) {
+      for (var j = 0; j < layout.table[i].length; j++) {
+        if (layout.table[i][j] != '-') {
+          count++;
+        }
+      }
+    }
+    return count;
+  }
+
+  List<Map<String, int>> getRowAndColActiveCells() {
+    final activeCells = <Map<String, int>>[];
+    for (var i = 0; i < layout.table.length; i++) {
+      for (var j = 0; j < layout.table[i].length; j++) {
+        if (layout.table[i][j] != '-') {
+          activeCells.add({'row': i, 'col': j});
+        }
+      }
+    }
+    return activeCells;
   }
 
   /// Check if the cell is in the range of the selected cell
-  bool isInRangeOfSelectedRow(SelectedCell? selectedCell, int col, int row) {
+  bool isInRangeOfSelectedRow(int col, int row) {
     if (selectedCell == null) {
       return false;
     }
 
-    final selectedWord = getWordOfSelectedCell(selectedCell.col, selectedCell.row);
+    final selectedWord = getWordOfSelectedCell(selectedCell?.col ?? 0, selectedCell?.row ?? 0);
     if (selectedWord.orientation == 'across') {
       return selectedWord.startRow == row && col >= selectedWord.startCol && col <= selectedWord.endCol;
     } else if (selectedWord.orientation == 'down') {
@@ -70,6 +100,38 @@ class CrossWordModel {
     } else {
       return false;
     }
+  }
+
+  SelectedCell? getNextCell(int col, int row) {
+    if (isInRangeOfSelectedRow(col, row)) {
+      final word = getWordOfSelectedCell(col, row);
+      if (word.orientation == 'across') {
+        if (col < word.endCol) {
+          return SelectedCell(word.startRow, col + 1);
+        }
+      } else if (word.orientation == 'down') {
+        if (row < word.endRow) {
+          return SelectedCell(row + 1, word.startCol);
+        }
+      }
+    }
+    return null;
+  }
+
+  SelectedCell? getPreviousCell(int col, int row) {
+    if (isInRangeOfSelectedRow(col, row)) {
+      final word = getWordOfSelectedCell(col, row);
+      if (word.orientation == 'across') {
+        if (col > word.startCol) {
+          return SelectedCell(word.startRow, col - 1);
+        }
+      } else if (word.orientation == 'down') {
+        if (row > word.startRow) {
+          return SelectedCell(row - 1, word.startCol);
+        }
+      }
+    }
+    return null;
   }
 }
 

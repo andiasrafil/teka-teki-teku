@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-12-29
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`cross_word` - `v0.1.2`](#cross_word---v012)
+ - [`naive_cross_word` - `v0.1.3`](#naive_cross_word---v013)
+ - [`teka_teki_tiku` - `v1.5.0`](#teka_teki_tiku---v150)
+
+---
+
+#### `cross_word` - `v0.1.2`
+
+ - **FEAT**: make the crossword playable.
+
+#### `naive_cross_word` - `v0.1.3`
+
+ - **FEAT**: make the crossword playable.
+
+#### `teka_teki_tiku` - `v1.5.0`
+
+ - **FEAT**: make the crossword playable.
+
+
 ## 1.0.0 (2024-12-28)
 
 

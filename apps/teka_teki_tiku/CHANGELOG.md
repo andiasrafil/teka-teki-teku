@@ -1,3 +1,7 @@
+## 1.5.0
+
+ - **FEAT**: make the crossword playable.
+
 ## 1.4.4
 
  - Update a dependency to the latest release.
