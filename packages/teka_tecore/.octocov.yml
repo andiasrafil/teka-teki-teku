@@ -15,7 +15,6 @@ codeToTestRatio:
   badge:
     path: docs/code_to_test_ratio.svg
 push:
-  message: "ci(octocov): unit test code coverage"
 diff:
   datastores:
     - artifact://${GITHUB_REPOSITORY}
