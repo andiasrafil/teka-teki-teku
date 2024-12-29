@@ -1,3 +1,7 @@
+## 0.1.2
+
+ - **FEAT**: make the crossword playable.
+
 ## 0.1.1+4
 
  - **FIX**: comment.

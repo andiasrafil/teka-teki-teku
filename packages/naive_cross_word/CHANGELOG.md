@@ -1,3 +1,7 @@
+## 0.1.3
+
+ - **FEAT**: make the crossword playable.
+
 ## 0.1.2+2
 
  - **FIX**: adjust height of the box.

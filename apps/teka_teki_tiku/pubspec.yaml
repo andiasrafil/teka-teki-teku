@@ -1,6 +1,6 @@
 name: teka_teki_tiku
 description: Aplikasi Permainan Teka-Teki
-version: 1.4.4
+version: 1.5.0
 publish_to: none
 
 environment:
@@ -8,13 +8,13 @@ environment:
 
 dependencies:
   bloc: ^8.1.3
-  cross_word: ^0.1.1+4
+  cross_word: ^0.1.2
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.4
   flutter_localizations:
     sdk: flutter
-  naive_cross_word: ^0.1.2+2
+  naive_cross_word: ^0.1.3
   teka_tecore: ^0.1.0+1
   teka_tekit: ^0.1.0+1
 
