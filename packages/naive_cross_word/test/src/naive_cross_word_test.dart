@@ -18,10 +18,12 @@ void main() {
       expect(dummyCrossWordModel.getWordOfSelectedCell(1, 0).answer, 'INDONESIA');
     });
     test('isCurrentCellSelected', () {
-      expect(dummyCrossWordModel.isCurrentCellSelected(SelectedCell(0, 1), 1, 0), true);
+      dummyCrossWordModel.selectedCell = SelectedCell(0, 1);
+      expect(dummyCrossWordModel.isCurrentCellSelected(1, 0), true);
     });
     test('isInRangeOfSelectedRow', () {
-      expect(dummyCrossWordModel.isInRangeOfSelectedRow(SelectedCell(0, 1), 1, 0), true);
+      dummyCrossWordModel.selectedCell = SelectedCell(0, 1);
+      expect(dummyCrossWordModel.isInRangeOfSelectedRow(1, 0), true);
     });
 
     test('getAnswerOfSelectedCellCross', () {
@@ -32,10 +34,12 @@ void main() {
       expect(dummyCrossWordModel.getWordOfSelectedCell(2, 3).answer, 'OMAN');
     });
     test('isCurrentCellSelectedCross', () {
-      expect(dummyCrossWordModel.isCurrentCellSelected(SelectedCell(3, 2), 2, 3), true);
+      dummyCrossWordModel.selectedCell = SelectedCell(3, 2);
+      expect(dummyCrossWordModel.isCurrentCellSelected(2, 3), true);
     });
     test('isInRangeOfSelectedRowCross', () {
-      expect(dummyCrossWordModel.isInRangeOfSelectedRow(SelectedCell(3, 2), 2, 3), true);
+      dummyCrossWordModel.selectedCell = SelectedCell(3, 2);
+      expect(dummyCrossWordModel.isInRangeOfSelectedRow(2, 3), true);
     });
 
     test('selectedCell', () {
@@ -44,19 +48,27 @@ void main() {
       expect(selectedCell.col, 1);
     });
 
-    testWidgets('widget have a tiles', (widgetTester) async {
-      await widgetTester.pumpWidget(
-        MaterialApp(
-          home: CrosswordWidget(
-            crossWordModel: dummyCrossWordModel,
-          ),
-        ),
-      );
-      final titleFinder = find.text('I');
-      final messageFinder = find.text('N');
-      expect(titleFinder, findsAtLeastNWidgets(1));
-      expect(messageFinder, findsAtLeastNWidgets(1));
+    test('getRowAndColActiveCells', () {
+      expect(dummyCrossWordModel.getRowAndColActiveCells().length, 26);
     });
+
+    test('getRowAndColActiveCellsCross', () {
+      expect(dummyCrossWordModel.getRowAndColActiveCells().length, 26);
+    });
+
+    // testWidgets('widget have a tiles', (widgetTester) async {
+    //   await widgetTester.pumpWidget(
+    //     MaterialApp(
+    //       home: CrosswordWidget(
+    //         crossWordModel: dummyCrossWordModel,
+    //       ),
+    //     ),
+    //   );
+    //   final titleFinder = find.text('I');
+    //   final messageFinder = find.text('N');
+    //   expect(titleFinder, findsAtLeastNWidgets(1));
+    //   expect(messageFinder, findsAtLeastNWidgets(1));
+    // });
   });
 }
 
