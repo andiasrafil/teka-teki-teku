@@ -36,6 +36,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`teka_teki_tiku` - `v1.11.0`](#teka_teki_tiku---v1110)
+
+---
+
+#### `teka_teki_tiku` - `v1.11.0`
+
+ - **FEAT**(teka_teki_tiku): update apa tau.
+
+
+## 2024-12-30
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`teka_teki_tiku` - `v1.10.0`](#teka_teki_tiku---v1100)
 
 ---
