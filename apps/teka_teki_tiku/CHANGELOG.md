@@ -1,3 +1,7 @@
+## 1.11.0
+
+ - **FEAT**(teka_teki_tiku): update apa tau.
+
 ## 1.10.0
 
  - **FEAT**(teka_teki_tiku): update appbar title to teka_teki.
