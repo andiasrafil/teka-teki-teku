@@ -15,6 +15,42 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`kakiku_admin` - `v1.2.0`](#kakiku_admin---v120)
+ - [`naive_cross_word` - `v0.1.5`](#naive_cross_word---v015)
+ - [`teka_teki_tiku` - `v1.7.0`](#teka_teki_tiku---v170)
+ - [`teka_tekit` - `v0.1.2`](#teka_tekit---v012)
+
+---
+
+#### `kakiku_admin` - `v1.2.0`
+
+ - **FEAT**: move cell ui to teka-tekit (#14).
+
+#### `naive_cross_word` - `v0.1.5`
+
+ - **FEAT**: move cell ui to teka-tekit (#14).
+
+#### `teka_teki_tiku` - `v1.7.0`
+
+ - **FEAT**: move cell ui to teka-tekit (#14).
+
+#### `teka_tekit` - `v0.1.2`
+
+ - **FEAT**: move cell ui to teka-tekit (#14).
+
+
+## 2024-12-30
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`teka_tekit` - `v0.1.2+1`](#teka_tekit---v0121)
  - [`kakiku_admin` - `v1.2.1`](#kakiku_admin---v121)
  - [`teka_teki_tiku` - `v1.7.1`](#teka_teki_tiku---v171)

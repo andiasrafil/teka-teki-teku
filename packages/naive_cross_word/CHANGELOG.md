@@ -1,3 +1,7 @@
+## 0.1.5
+
+ - **FEAT**: move cell ui to teka-tekit (#14).
+
 ## 0.1.5+1
 
  - Update a dependency to the latest release.
