@@ -5,7 +5,7 @@ coverage:
     - coverage/lcov.info
   acceptable: 10%
   badge:
-    path: coverage_badge.svg
+    path: docs/coverage.svg
 testExecutionTime:
   if: true
   badge:
