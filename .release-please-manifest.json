@@ -3,6 +3,6 @@
   "apps/kakiku_admin": "1.5.0",
   "packages/naive_cross_word": "0.2.0",
   "packages/teka_tecore": "0.2.0",
-  "packages/teka_tekit": "0.2.0",
+  "packages/teka_tekit": "1.11.0",
   "packages/cross_word": "0.2.0"
 }
