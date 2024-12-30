@@ -1,7 +1,7 @@
 {
   "apps/teka_teki_tiku": "1.9.0",
   "apps/kakiku_admin": "1.4.0",
-  "packages/naive_cross_word": "0.1.7",
+  "packages/naive_cross_word": "0.2.0",
   "packages/teka_tecore": "0.1.1",
   "packages/teka_tekit": "0.1.4",
   "packages/cross_word": "0.1.3"
