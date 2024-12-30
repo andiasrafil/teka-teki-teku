@@ -1,6 +1,6 @@
 name: naive_cross_word
 description: naive crossword
-version: 0.1.5
+version: 0.1.6
 publish_to: none
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  teka_tekit: ^0.1.2+1
+  teka_tekit: ^0.1.3
 
 dev_dependencies:
   flutter_test:

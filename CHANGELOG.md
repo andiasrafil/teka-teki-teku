@@ -3,6 +3,47 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-12-30
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`kakiku_admin` - `v1.3.0`](#kakiku_admin---v130)
+ - [`naive_cross_word` - `v0.1.6`](#naive_cross_word---v016)
+ - [`teka_teki_tiku` - `v1.8.0`](#teka_teki_tiku---v180)
+ - [`teka_tekit` - `v0.1.3`](#teka_tekit---v013)
+
+---
+
+#### `kakiku_admin` - `v1.3.0`
+
+ - **FEAT**: move cell ui to teka-tekit (#14).
+ - **FEAT**: move cell ui to teka-tekit.
+
+#### `naive_cross_word` - `v0.1.6`
+
+ - **FEAT**: move cell ui to teka-tekit (#14).
+ - **FEAT**: move cell ui to teka-tekit.
+
+#### `teka_teki_tiku` - `v1.8.0`
+
+ - **FEAT**: update appbar title.
+ - **FEAT**: move cell ui to teka-tekit (#14).
+ - **FEAT**: move cell ui to teka-tekit.
+
+#### `teka_tekit` - `v0.1.3`
+
+ - **FEAT**: move cell ui to teka-tekit (#14).
+ - **FEAT**: move cell ui to teka-tekit.
+
+
 ## [1.2.0](https://github.com/andiasrafil/teka-teki-teku/compare/v1.1.0...v1.2.0) (2024-12-30)
 
 

@@ -1,3 +1,8 @@
+## 0.1.6
+
+ - **FEAT**: move cell ui to teka-tekit (#14).
+ - **FEAT**: move cell ui to teka-tekit.
+
 ## 0.1.5
 
  - **FEAT**: move cell ui to teka-tekit (#14).
