@@ -22,7 +22,7 @@ class EnabledCell extends StatelessWidget {
   /// [isSelected] used to determine if the cell is selected
   final bool isSelected;
 
-  /// [isFocused] used to determine if the cell is in the same word of selected cell
+  /// [isFocused] used to know if the cell is in the same word of selected cell
   final bool isFocused;
 
   /// [text] used to display the text of the cell
@@ -43,7 +43,9 @@ class EnabledCell extends StatelessWidget {
       width: MediaQuery.of(context).size.width / 10,
       height: MediaQuery.of(context).size.height / 10,
       decoration: BoxDecoration(
-        color: isFocused ? Colors.yellow.withOpacity(isSelected ? 1.0 : 0.5) : Colors.white,
+        color: isFocused
+            ? Colors.yellow.withOpacity(isSelected ? 1.0 : 0.5)
+            : Colors.white,
         border: Border.all(color: isSelected ? Colors.green : Colors.white),
       ),
       child: TextField(
