@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.0](https://github.com/andiasrafil/teka-teki-teku/compare/v1.3.0...v1.4.0) (2024-12-30)
+
+
+### Features
+
+* **apps/teka_teki_tiku:** update navbar ([6c92422](https://github.com/andiasrafil/teka-teki-teku/commit/6c92422171b2dadacb1a330d73e155848418458e))
+* **teka_teki_tiku:** update appbar title to teka_teki ([5881469](https://github.com/andiasrafil/teka-teki-teku/commit/58814694740f7c021a754e6e86c16c388518651a))
+
 ## 2024-12-30
 
 ### Changes
