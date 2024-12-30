@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.11.0](https://github.com/andiasrafil/teka-teki-teku/compare/naive_cross_word@v0.2.0...naive_cross_word@v1.11.0) (2024-12-30)
+
+
+### Miscellaneous Chores
+
+* **apps/teka_teki_tiku:** release 1.11.0 ([561cad2](https://github.com/andiasrafil/teka-teki-teku/commit/561cad200baf4e6b7ec22a79c575ac20a5d09c45))
+* **teka_teki_tiku:** release 1.11.0 ([5c6b308](https://github.com/andiasrafil/teka-teki-teku/commit/5c6b308bb16cd265277fb97c655508b8dbddd82f))
+
 ## [0.2.0](https://github.com/andiasrafil/teka-teki-teku/compare/naive_cross_word-v0.1.7...naive_cross_word@v0.2.0) (2024-12-30)
 
 
