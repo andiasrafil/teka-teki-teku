@@ -5,15 +5,15 @@ coverage:
     - coverage/lcov.info
   acceptable: 10%
   badge:
-    path: docs/coverage.svg
+    path: coverage_badge.svg
 testExecutionTime:
   if: true
   badge:
-    path: docs/execution_time.svg
+    path: execution_time.svg
 codeToTestRatio:
   if: true
   badge:
-    path: docs/code_to_test_ratio.svg
+    path: code_to_test_ratio.svg
 push:
 diff:
   datastores:
