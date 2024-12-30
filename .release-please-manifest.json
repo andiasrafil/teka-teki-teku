@@ -4,5 +4,6 @@
   "packages/naive_cross_word": "0.1.4",
   "packages/teka_tecore": "0.1.1",
   "packages/teka_tekit": "0.1.1",
-  "packages/cross_word": "0.1.3"
+  "packages/cross_word": "0.1.3",
+  ".": "1.2.0"
 }
