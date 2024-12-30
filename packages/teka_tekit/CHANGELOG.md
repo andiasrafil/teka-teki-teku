@@ -1,3 +1,8 @@
+## 0.1.2+1
+
+ - **FIX**: fix linter error.
+ - **FIX**: fix linting.
+
 ## 0.1.2
 
  - **FEAT**: move cell ui to teka-tekit.
