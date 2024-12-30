@@ -1,4 +1,4 @@
-name: teka_teki_tiku
+name: Run All Tests
 
 concurrency:
   group: $-$
