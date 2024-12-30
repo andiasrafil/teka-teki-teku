@@ -1,3 +1,8 @@
+## 1.9.0
+
+ - **FEAT**: change appbar title (#17).
+ - **FEAT**(teka_teki_tiku): update appbar title.
+
 ## 1.8.0
 
  - **FEAT**: update appbar title.

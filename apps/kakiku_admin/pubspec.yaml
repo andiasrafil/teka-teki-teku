@@ -1,6 +1,6 @@
 name: kakiku_admin
 description: admin aplikasi teka teki tiku
-version: 1.3.0
+version: 1.4.0
 publish_to: none
 
 environment:
@@ -14,7 +14,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   teka_tecore: ^0.1.1
-  teka_tekit: ^0.1.3
+  teka_tekit: ^0.1.4
 
 dev_dependencies:
   bloc_test: ^9.1.6

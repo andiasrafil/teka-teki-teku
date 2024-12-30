@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-12-30
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`kakiku_admin` - `v1.4.0`](#kakiku_admin---v140)
+ - [`naive_cross_word` - `v0.1.7`](#naive_cross_word---v017)
+ - [`teka_teki_tiku` - `v1.9.0`](#teka_teki_tiku---v190)
+ - [`teka_tekit` - `v0.1.4`](#teka_tekit---v014)
+
+---
+
+#### `kakiku_admin` - `v1.4.0`
+
+ - **FEAT**: change appbar title (#17).
+
+#### `naive_cross_word` - `v0.1.7`
+
+ - **FEAT**: change appbar title (#17).
+
+#### `teka_teki_tiku` - `v1.9.0`
+
+ - **FEAT**: change appbar title (#17).
+ - **FEAT**(teka_teki_tiku): update appbar title.
+
+#### `teka_tekit` - `v0.1.4`
+
+ - **FEAT**: change appbar title (#17).
+
+
 ## [1.3.0](https://github.com/andiasrafil/teka-teki-teku/compare/v1.2.1...v1.3.0) (2024-12-30)
 
 
