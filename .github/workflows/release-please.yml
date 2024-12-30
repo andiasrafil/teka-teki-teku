@@ -24,7 +24,7 @@ jobs:
           # this is a built-in strategy in release-please, see "Action Inputs"
           # for more options
       - uses: actions/checkout@v4
-      - uses: dart-lang/setup-dart@v1
+      - uses: subosito/flutter-action@v2
       - uses: bluefireteam/melos-action@v3
         with:
           run-versioning: true
