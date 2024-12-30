@@ -43,9 +43,7 @@ class EnabledCell extends StatelessWidget {
       width: MediaQuery.of(context).size.width / 10,
       height: MediaQuery.of(context).size.height / 10,
       decoration: BoxDecoration(
-        color: isFocused
-            ? Colors.yellow.withOpacity(isSelected ? 1.0 : 0.5)
-            : Colors.white,
+        color: isFocused ? Colors.yellow.withOpacity(isSelected ? 1.0 : 0.5) : Colors.white,
         border: Border.all(color: isSelected ? Colors.green : Colors.white),
       ),
       child: TextField(
