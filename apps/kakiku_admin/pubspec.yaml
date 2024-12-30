@@ -1,6 +1,6 @@
 name: kakiku_admin
 description: admin aplikasi teka teki tiku
-version: 1.5.0
+version: 1.11.0
 publish_to: none
 
 environment:
