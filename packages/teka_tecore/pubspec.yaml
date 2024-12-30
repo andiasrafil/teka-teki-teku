@@ -1,6 +1,6 @@
 name: teka_tecore
 description: teka_teki_teku core package
-version: 0.1.1
+version: 0.2.0
 publish_to: none
 
 environment:
