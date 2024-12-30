@@ -1,3 +1,7 @@
+## 0.1.5
+
+ - **FEAT**: move cell ui to teka-tekit.
+
 ## 0.1.4
 
  - **FEAT**: make crossword playable (#8) (#9).
