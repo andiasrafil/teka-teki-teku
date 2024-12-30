@@ -1,3 +1,11 @@
+## 1.7.1
+
+ - Update a dependency to the latest release.
+
+## 1.7.0
+
+ - **FEAT**: move cell ui to teka-tekit.
+
 ## 1.6.0
 
  - **FEAT**: make crossword playable (#8) (#9).

@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: teka_tekit
+dependency_overrides:
+  teka_tekit:
+    path: ../teka_tekit

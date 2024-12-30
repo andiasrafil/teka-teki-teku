@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:naive_cross_word/naive_cross_word.dart';
+import 'package:teka_tekit/teka_tekit.dart';
 
 class CrosswordWidget extends StatefulWidget {
   const CrosswordWidget({
@@ -10,22 +11,6 @@ class CrosswordWidget extends StatefulWidget {
 
   @override
   State<CrosswordWidget> createState() => _CrosswordWidgetState();
-}
-
-class ActiveCellModel {
-  ActiveCellModel(this.col, this.row, this.controller, this.focusNode);
-  int col;
-  int row;
-  TextEditingController controller;
-  FocusNode focusNode;
-
-  static List<ActiveCellModel> generate(List<Map<String, int>> cells) {
-    final activeCellModels = <ActiveCellModel>[];
-    for (var i = 0; i < cells.length; i++) {
-      activeCellModels.add(ActiveCellModel(cells[i]['col']!, cells[i]['row']!, TextEditingController(), FocusNode()));
-    }
-    return activeCellModels;
-  }
 }
 
 class _CrosswordWidgetState extends State<CrosswordWidget> {
@@ -145,62 +130,5 @@ class _CrosswordWidgetState extends State<CrosswordWidget> {
 
   ActiveCellModel getActiveCellModel(int col, int row) {
     return activeCellModels.firstWhere((element) => element.col == col && element.row == row);
-  }
-}
-
-class DisabledCell extends StatelessWidget {
-  const DisabledCell({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: MediaQuery.of(context).size.width / 10,
-      height: MediaQuery.of(context).size.width / 10,
-      decoration: BoxDecoration(
-        color: Colors.black,
-        border: Border.all(color: Colors.white),
-      ),
-    );
-  }
-}
-
-class EnabledCell extends StatelessWidget {
-  const EnabledCell({required this.activeModel, required this.isSelected, required this.isFocused, required this.text, this.onTap, this.onChanged, super.key});
-  final bool isSelected;
-  final bool isFocused;
-  final String text;
-  final ActiveCellModel activeModel;
-  final ValueChanged<String>? onChanged;
-  final VoidCallback? onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: MediaQuery.of(context).size.width / 10,
-      height: MediaQuery.of(context).size.height / 10,
-      decoration: BoxDecoration(
-        color: isFocused ? Colors.yellow.withOpacity(isSelected ? 1.0 : 0.5) : Colors.white,
-        border: Border.all(color: isSelected ? Colors.green : Colors.white),
-      ),
-      child: TextField(
-        textAlign: TextAlign.center,
-        style: const TextStyle(fontSize: 20),
-        controller: activeModel.controller,
-        focusNode: activeModel.focusNode,
-        maxLength: 1,
-        showCursor: true,
-        autofocus: true,
-        decoration: const InputDecoration(
-          counterStyle: TextStyle(
-            height: double.minPositive,
-          ),
-          counterText: '',
-        ),
-        onChanged: (value) {
-          onChanged?.call(value);
-        },
-        onTap: onTap,
-      ),
-    );
   }
 }
