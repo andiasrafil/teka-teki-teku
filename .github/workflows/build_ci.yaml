@@ -73,6 +73,8 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: 📚 Git Checkout
@@ -133,4 +135,5 @@ jobs:
       - name: 📤 Comment coverage/lcov.info
         uses: k1LoW/octocov-action@v1
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           config: ${{inputs.working_directory}}/.octocov.yml
