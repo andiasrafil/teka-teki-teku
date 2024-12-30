@@ -18,7 +18,7 @@ jobs:
       projects: ${{ steps.set-changes.outputs.projects }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all commits to ensure the base commit is available
 
