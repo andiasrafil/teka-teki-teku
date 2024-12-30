@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`teka_teki_tiku` - `v1.10.0`](#teka_teki_tiku---v1100)
+
+---
+
+#### `teka_teki_tiku` - `v1.10.0`
+
+ - **FEAT**(teka_teki_tiku): update appbar title to teka_teki.
+
+
+## 2024-12-30
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`kakiku_admin` - `v1.4.0`](#kakiku_admin---v140)
  - [`naive_cross_word` - `v0.1.7`](#naive_cross_word---v017)
  - [`teka_teki_tiku` - `v1.9.0`](#teka_teki_tiku---v190)

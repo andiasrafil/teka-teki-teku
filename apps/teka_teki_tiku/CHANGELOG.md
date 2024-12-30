@@ -1,3 +1,7 @@
+## 1.10.0
+
+ - **FEAT**(teka_teki_tiku): update appbar title to teka_teki.
+
 ## 1.9.0
 
  - **FEAT**: change appbar title (#17).
