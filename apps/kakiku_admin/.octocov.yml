@@ -5,12 +5,6 @@ coverage:
   acceptable: 10%
   badge:
     path: coverage_badge.svg
-testExecutionTime:
-  badge:
-    path: execution_time.svg
-codeToTestRatio:
-  badge:
-    path: code_to_test_ratio.svg
 push:
 diff:
   datastores:

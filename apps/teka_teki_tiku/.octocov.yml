@@ -5,12 +5,7 @@ coverage:
   acceptable: 10%
   badge:
     path: docs/coverage.svg
-testExecutionTime:
-  badge:
-    path: execution_time.svg
-codeToTestRatio:
-  badge:
-    path: code_to_test_ratio.svg
+push:
 diff:
   datastores:
     - artifact://${GITHUB_REPOSITORY}
