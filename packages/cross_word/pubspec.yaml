@@ -1,6 +1,6 @@
 name: cross_word
 description: main crossword
-version: 0.1.3
+version: 0.2.0
 publish_to: none
 
 environment:
