@@ -1,3 +1,9 @@
+## 1.8.0
+
+ - **FEAT**: update appbar title.
+ - **FEAT**: move cell ui to teka-tekit (#14).
+ - **FEAT**: move cell ui to teka-tekit.
+
 ## 1.7.0
 
  - **FEAT**: move cell ui to teka-tekit (#14).
