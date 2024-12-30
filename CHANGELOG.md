@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/andiasrafil/teka-teki-teku/compare/v1.2.0...v1.2.1) (2024-12-30)
+
+
+### Bug Fixes
+
+* remove versioning for root repository ([3b331ac](https://github.com/andiasrafil/teka-teki-teku/commit/3b331acfbd5bf5e3c5a9e136f849ff237b0bf385))
+
 ## [1.2.0](https://github.com/andiasrafil/teka-teki-teku/compare/v1.1.0...v1.2.0) (2024-12-30)
 
 
