@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.11.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.10.0...teka_teki_tiku@v1.11.0) (2024-12-30)
+
+
+### Features
+
+* **teka_teki_tiku:** toko toko toki ([1b06764](https://github.com/andiasrafil/teka-teki-teku/commit/1b06764c492fdae6c506357e68744d5dbde03bef))
+* **teka_teki_tiku:** update apa yang i ([f48e09c](https://github.com/andiasrafil/teka-teki-teku/commit/f48e09c2548e7416c3d5a145bf4dcd9fa4227278))
+* **teka_teki_tiku:** Update package ([a773763](https://github.com/andiasrafil/teka-teki-teku/commit/a7737639005eca111960551610b1ff5f003a5429))
+* **teka_teki_tiku:** update yang itu ([e4ebfc6](https://github.com/andiasrafil/teka-teki-teku/commit/e4ebfc6649e9ae5affe2bb45c7032025cd728cd1))
+
 ## [1.10.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku-v1.9.0...teka_teki_tiku@v1.10.0) (2024-12-30)
 
 
