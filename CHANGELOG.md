@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.0](https://github.com/andiasrafil/teka-teki-teku/compare/v1.1.0...v1.2.0) (2024-12-30)
+
+
+### Features
+
+* move cell ui to teka-tekit ([#14](https://github.com/andiasrafil/teka-teki-teku/issues/14)) ([c60f565](https://github.com/andiasrafil/teka-teki-teku/commit/c60f565a8288d7c4ecf9ef02108eb11abcd301a1))
+
+
+### Bug Fixes
+
+* release please configuration ([6323522](https://github.com/andiasrafil/teka-teki-teku/commit/6323522765b1f7027a9fc4339693651d48e85a00))
+
 ## 2024-12-30
 
 ### Changes
