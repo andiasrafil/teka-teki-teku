@@ -23,8 +23,7 @@ void main() {
         MaterialApp(
           home: Scaffold(
             body: EnabledCell(
-              activeModel:
-                  ActiveCellModel(0, 0, TextEditingController(), FocusNode()),
+              activeModel: ActiveCellModel(0, 0, TextEditingController(), FocusNode()),
               isSelected: false,
               isFocused: false,
               text: 'A',
