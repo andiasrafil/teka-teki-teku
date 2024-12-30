@@ -2,48 +2,55 @@
   "include-component-in-tag": true,
   "include-v-in-tag": true,
   "tag-separator": "@",
+  "separate-pull-requests": true,
   "packages": {
     "apps/teka_teki_tiku": {
       "changelog-path": "apps/teka_teki_tiku/CHANGELOG.md",
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
-      "prerelease": false
+      "prerelease": false,
+      "release-type": "dart"
     },
     "apps/kakiku_admin": {
       "changelog-path": "apps/kakiku_admin/CHANGELOG.md",
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
-      "prerelease": false
+      "prerelease": false,
+      "release-type": "dart"
     },
     "packages/naive_cross_word": {
       "changelog-path": "packages/naive_cross_word/CHANGELOG.md",
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
-      "prerelease": false
+      "prerelease": false,
+      "release-type": "dart"
     },
     "packages/teka_tecore": {
       "changelog-path": "packages/teka_tecore/CHANGELOG.md",
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
-      "prerelease": false
+      "prerelease": false,
+      "release-type": "dart"
     },
     "packages/teka_tekit": {
       "changelog-path": "packages/teka_tekit/CHANGELOG.md",
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
-      "prerelease": false
+      "prerelease": false,
+      "release-type": "dart"
     },
     "packages/cross_word": {
       "changelog-path": "packages/cross_word/CHANGELOG.md",
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
-      "prerelease": false
+      "prerelease": false,
+      "release-type": "dart"
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
