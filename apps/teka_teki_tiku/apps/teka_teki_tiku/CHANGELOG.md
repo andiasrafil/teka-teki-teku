@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.11.0...teka_teki_tiku@v1.12.0) (2024-12-30)
+
+
+### Features
+
+* **teka_teki_tiku:** Melos mantap ([9a20435](https://github.com/andiasrafil/teka-teki-teku/commit/9a204354559de3ece56a6174d3f429d0784ee863))
+
 ## [1.11.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.10.0...teka_teki_tiku@v1.11.0) (2024-12-30)
 
 
