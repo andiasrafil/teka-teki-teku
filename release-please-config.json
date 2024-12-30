@@ -8,48 +8,37 @@
     "apps/teka_teki_tiku": {
       "package-name": "teka_teki_tiku",
       "changelog-path": "apps/teka_teki_tiku/CHANGELOG.md",
-      "bump-minor-pre-major": false,
-      "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false
     },
     "apps/kakiku_admin": {
       "package-name": "kakiku_admin",
       "changelog-path": "apps/kakiku_admin/CHANGELOG.md",
-      "bump-minor-pre-major": false,
-      "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false
     },
     "packages/naive_cross_word": {
       "package-name": "naive_cross_word",
       "changelog-path": "packages/naive_cross_word/CHANGELOG.md",
-      "bump-minor-pre-major": false,
-      "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false
     },
     "packages/teka_tecore": {
       "package-name": "teka_tecore",
       "changelog-path": "packages/teka_tecore/CHANGELOG.md",
-      "bump-minor-pre-major": false,
-      "bump-patch-for-minor-pre-major": false,
+
       "draft": false,
       "prerelease": false
     },
     "packages/teka_tekit": {
       "package-name": "teka_tekit",
       "changelog-path": "packages/teka_tekit/CHANGELOG.md",
-      "bump-minor-pre-major": false,
-      "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false
     },
     "packages/cross_word": {
       "package-name": "cross_word",
       "changelog-path": "packages/cross_word/CHANGELOG.md",
-      "bump-minor-pre-major": false,
-      "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false
     }
