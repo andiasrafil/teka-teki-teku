@@ -21,7 +21,7 @@ class CounterView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Toko Toko Toko')),
+      appBar: AppBar(title: const Text('Melos Mantap')),
       body: CrosswordWidget(
         crossWordModel: dummyCrossWordModel,
       ),
