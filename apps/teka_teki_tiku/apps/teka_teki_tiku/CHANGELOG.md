@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.12.0...teka_teki_tiku@v1.13.0) (2025-01-06)
+
+
+### Features
+
+* squash mantap ([#48](https://github.com/andiasrafil/teka-teki-teku/issues/48)) ([29e5969](https://github.com/andiasrafil/teka-teki-teku/commit/29e59694344fdf1069f91a0812d98bc9379b484d))
+
 ## [1.12.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.11.0...teka_teki_tiku@v1.12.0) (2024-12-30)
 
 
