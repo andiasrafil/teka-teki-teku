@@ -18,6 +18,8 @@ class CounterPage extends StatelessWidget {
 class CounterView extends StatelessWidget {
   const CounterView({super.key});
 
+  void iniCommitCustom() {}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
