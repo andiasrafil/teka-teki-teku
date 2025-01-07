@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.14.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.13.0...teka_teki_tiku@v1.14.0) (2025-01-07)
+
+
+### Features
+
+* nyoba dong dong ([#50](https://github.com/andiasrafil/teka-teki-teku/issues/50)) ([56c5718](https://github.com/andiasrafil/teka-teki-teku/commit/56c57180d87616a02456dd98ad331f3c7e8a6273))
+* update nyoba dong ([9e2544a](https://github.com/andiasrafil/teka-teki-teku/commit/9e2544a88c9508e0c42395bbd4b45689c8a359dd))
+
 ## [1.13.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.12.0...teka_teki_tiku@v1.13.0) (2025-01-06)
 
 
