@@ -24,6 +24,8 @@ class CounterView extends StatelessWidget {
 
   void iniCommitLogic() {}
 
+  void iniCommitIntegrateWithApi() {}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
