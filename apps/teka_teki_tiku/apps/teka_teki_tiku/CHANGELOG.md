@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.0.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.14.0...teka_teki_tiku@v2.0.0) (2025-01-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* **utils:** encode method no longer throws.
+
+### Features
+
+* adds v4 UUID to crypto ([5ed4b37](https://github.com/andiasrafil/teka-teki-teku/commit/5ed4b37ad098e52537b434435e2a842707bedbbf))
+* andi ([06b82ca](https://github.com/andiasrafil/teka-teki-teku/commit/06b82ca682fd7e2e9e258414f93037d23fe17f47))
+* nyoba multiple commit ([#53](https://github.com/andiasrafil/teka-teki-teku/issues/53)) ([#54](https://github.com/andiasrafil/teka-teki-teku/issues/54)) ([d871cb1](https://github.com/andiasrafil/teka-teki-teku/commit/d871cb1b2a4a3e78bc612296b1b107bc59b504c3))
+* singgih ([06b82ca](https://github.com/andiasrafil/teka-teki-teku/commit/06b82ca682fd7e2e9e258414f93037d23fe17f47))
+* update data ([06eac3d](https://github.com/andiasrafil/teka-teki-teku/commit/06eac3dc95d125215cfdb4785963ab71d69430f7))
+* update data ([6309999](https://github.com/andiasrafil/teka-teki-teku/commit/6309999782729115a3793e1ccbb8dd1f4381675a))
+* update data 2 ([06eac3d](https://github.com/andiasrafil/teka-teki-teku/commit/06eac3dc95d125215cfdb4785963ab71d69430f7))
+* update data 2 ([6309999](https://github.com/andiasrafil/teka-teki-teku/commit/6309999782729115a3793e1ccbb8dd1f4381675a))
+* **utils:** update encode to support unicode ([5ed4b37](https://github.com/andiasrafil/teka-teki-teku/commit/5ed4b37ad098e52537b434435e2a842707bedbbf))
+
+
+### Bug Fixes
+
+* **utils:** unicode no longer throws exception ([5ed4b37](https://github.com/andiasrafil/teka-teki-teku/commit/5ed4b37ad098e52537b434435e2a842707bedbbf))
+
 ## [1.14.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.13.0...teka_teki_tiku@v1.14.0) (2025-01-07)
 
 
