@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.14.0...teka_teki_tiku@v2.0.0) (2025-01-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* **utils:** encode method no longer throws.
+
+### Features
+
+* adds v4 UUID to crypto ([5ed4b37](https://github.com/andiasrafil/teka-teki-teku/commit/5ed4b37ad098e52537b434435e2a842707bedbbf))
+* **utils:** update encode to support unicode ([5ed4b37](https://github.com/andiasrafil/teka-teki-teku/commit/5ed4b37ad098e52537b434435e2a842707bedbbf))
+
+
+### Bug Fixes
+
+* **utils:** unicode no longer throws exception ([5ed4b37](https://github.com/andiasrafil/teka-teki-teku/commit/5ed4b37ad098e52537b434435e2a842707bedbbf))
+
 ## [1.14.0](https://github.com/andiasrafil/teka-teki-teku/compare/teka_teki_tiku@v1.13.0...teka_teki_tiku@v1.14.0) (2025-01-07)
 
 
