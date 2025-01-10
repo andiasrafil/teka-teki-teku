@@ -427,14 +427,14 @@ packages:
       path: "../../packages/teka_tecore"
       relative: true
     source: path
-    version: "0.1.1"
+    version: "0.2.0"
   teka_tekit:
     dependency: "direct main"
     description:
       path: "../../packages/teka_tekit"
       relative: true
     source: path
-    version: "0.1.2"
+    version: "0.2.0"
   term_glyph:
     dependency: transitive
     description:
